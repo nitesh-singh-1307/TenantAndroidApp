@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
         }else{
             // new comment
             println("TextView is not initialized!")
+            println("TextView is not initialized!")
             exit = 1 // Exit with code 1 to indicate failure
         }
     }
