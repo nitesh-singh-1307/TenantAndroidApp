@@ -13,8 +13,16 @@
         android:text="Hello,World!"
         android:textSize="24sp"
         android:textStyle="bold"
+        android:visibility="gone"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         />
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:apiKey="AIzaSyBqDTTQI8D5XE0mT3P9njbYfpIc2CgnxXo"
+        app:liteMode="true" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

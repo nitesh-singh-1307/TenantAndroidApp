@@ -3,7 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/kotlin project/TenantAndroidApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.121" />
+        <entry key="..\:/kotlin project/TenantAndroidApp/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/kotlin project/TenantAndroidApp/app/src/main/res/layout/activity_login2.xml" value="0.2359375" />
         <entry key="..\:/kotlin project/TenantAndroidApp/app/src/main/res/layout/activity_main.xml" value="0.10989583333333333" />
+        <entry key="..\:/kotlin project/TenantAndroidApp/app/src/main/res/layout/activity_registration.xml" value="0.4" />
+        <entry key="..\:/kotlin project/TenantAndroidApp/app/src/main/res/layout/activity_registration2.xml" value="0.1" />
+        <entry key="..\:/kotlin project/TenantAndroidApp/app/src/main/res/layout/content_registration.xml" value="0.25" />
+        <entry key="..\:/kotlin project/TenantAndroidApp/app/src/main/res/layout/fragment_second.xml" value="0.25" />
       </map>
     </option>
   </component>

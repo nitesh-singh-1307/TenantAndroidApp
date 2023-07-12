@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "137153019925",
+    "project_id": "tenantandroidapp-35bd0",
+    "storage_bucket": "tenantandroidapp-35bd0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:137153019925:android:e704c3136f1b6a14940e1c",
+        "android_client_info": {
+          "package_name": "com.demo.tenantandroidapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "137153019925-4ja5hcebri3866ab1no6cie4iltbiqs0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEwnlqDL4y-8LO50XUGMytgE1QgiDyDyQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "137153019925-4ja5hcebri3866ab1no6cie4iltbiqs0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
