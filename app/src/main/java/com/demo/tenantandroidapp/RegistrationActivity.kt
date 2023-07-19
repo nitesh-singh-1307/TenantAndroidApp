@@ -17,12 +17,10 @@ class RegistrationActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_registration)
-        val email = "user@example.com"
-        val password = "password123"
         val str_submit = findViewById<Button>(R.id.btbSubmit)
         edt_emailId = findViewById<EditText>(R.id.editEmail)
         edt_password = findViewById<EditText>(R.id.editPassword)
-        edt_emailId.setText("user5@example.com")
+        edt_emailId.setText("user3@example.com")
         edt_password.setText("password123")
         val email1: String = edt_emailId.getText().toString().trim()
         val password1: String = edt_password.getText().toString().trim()
@@ -35,7 +33,7 @@ class RegistrationActivity : AppCompatActivity() {
                         val user = FirebaseAuth.getInstance().currentUser
                         // Handle user registration success
                         val riderId = user?.uid ?: ""
-                        val riderName = "John Doe"
+                        val riderName = "Apna Dava"
                         val riderPhone = "+123456789"
                         val riderAddress = "uma char rasta, vadodara, Gujarat, 394210"
                         // Step 5: Store Rider Details in the Realtime Database
@@ -43,7 +41,7 @@ class RegistrationActivity : AppCompatActivity() {
                         val ridersRef = database.getReference("riders")
                         val riderRef = ridersRef.child(riderId)
 
-                        val rider = Rider(riderId, riderName, riderPhone,riderAddress,Location(22.301835,73.2301593))
+                        val rider = Rider(riderId, riderName, riderPhone,riderAddress,Location(22.3018058,73.2299558))
                         riderRef.setValue(rider)
                         Log.d("TAG","checkUser:::::::::$user")
                         val intent = Intent(this,LoginActivity::class.java)
