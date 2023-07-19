@@ -8,10 +8,20 @@ trigger:
     include:
       - main
 
-pool:
-  vmImage: ubuntu-latest
+jobs:
+  - job: BuildReleaseAPK
+    displayName: 'Build Release APK'
+    pool:
+      vmImage: ubuntu-latest
+    steps:
+      - script: |
+          echo "text in not initialized!"
+        displayName: Print Error Message
 
-steps:
-- script: |
-    echo "text in not initialized!"
-  displayName: Print Error Message
+      - task: Gradle@2
+        inputs:
+          workingDirectory: ''
+          gradleWrapperFile: 'gradlew'
+          gradleOptions: '-Xmx3072m'
+          tasks: 'assembleRelease'
+
