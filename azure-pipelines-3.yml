@@ -25,3 +25,8 @@ jobs:
           gradleOptions: '-Xmx3072m'
           tasks: 'assembleRelease'
 
+      - task: PublishPipelineArtifact@1
+        inputs:
+          targetPath: '$(Pipeline.Workspace)'
+          artifactType: 'pipeline'
+          artifactName: 'drop'
